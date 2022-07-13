@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/instagram-clone-react/static/css/main.932152cd.css",
+    "main.js": "/instagram-clone-react/static/js/main.14f69fc4.js",
+    "static/media/CodigraRegular-GOAeq.ttf": "/instagram-clone-react/static/media/CodigraRegular-GOAeq.b788157a15cc254d817b.ttf",
+    "index.html": "/instagram-clone-react/index.html",
+    "main.932152cd.css.map": "/instagram-clone-react/static/css/main.932152cd.css.map",
+    "main.14f69fc4.js.map": "/instagram-clone-react/static/js/main.14f69fc4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.932152cd.css",
+    "static/js/main.14f69fc4.js"
+  ]
+}

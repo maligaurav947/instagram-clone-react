@@ -1,0 +1,89 @@
+@media screen and (max-width:456px) {
+ .main-header__search-input {
+  display: none;
+ }
+
+ .main-Sidecontact {
+  width: 0vw;
+  display: none;
+ }
+
+ .main-small-nav {
+  position: absolute;
+  top: 90%;
+  right: -100vw;
+
+  .main-small-nav__sticky {
+   @include FlexCenter;
+   justify-content: space-evenly;
+   height: 10vh;
+   position: fixed;
+   background-color: rgb(255, 255, 255);
+   width: 100vw;
+
+   .bi__iconn {
+    margin-right: 0.5em;
+   }
+
+
+  }
+ }
+
+ .biX,
+ .search {
+  display: none;
+ }
+
+ .bi__icon {
+  display: none;
+ }
+
+ .main-img {
+  width: 3em;
+  gap: 15px;
+  margin-left: 0.5em;
+  border-radius: 50%;
+ }
+
+ .main-hero {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  margin-bottom: 10vh;
+ }
+
+ .post {
+  border: none;
+ }
+
+ .main-post {
+  display: block;
+  width: 100vw;
+
+  .post-list {
+   width: 100%;
+   padding: 0 0.6em;
+
+  }
+ }
+
+ .main-stories {
+
+  width: 100vw;
+
+  .main-stories__story {
+   display: flex;
+   position: absolute;
+   left: 266px;
+   justify-content: center;
+   align-items: center;
+   margin-left: 1.55em;
+   margin-top: 0.5em;
+
+   .main-img {
+
+    margin-left: 1.3em;
+   }
+  }
+ }
+}

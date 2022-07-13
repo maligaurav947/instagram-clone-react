@@ -1,0 +1,22 @@
+.main-stories {
+
+ display: flex;
+ position: absolute;
+ justify-content: center;
+ width: 100%;
+ left: -280px;
+
+
+ .main-stories__story {
+  margin-block: auto;
+  margin-top: 1.5em;
+
+  .main-img {
+   margin: 0 0.2em;
+   max-width: 3em;
+   border: 4px solid rgba(228, 11, 40, 0.808);
+   border-radius: 50%;
+
+  }
+ }
+}

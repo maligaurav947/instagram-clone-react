@@ -1,0 +1,128 @@
+.main-hero {
+  display: flex;
+  height: 100%;
+}
+
+.main-post {
+  width: 60vw;
+  margin: 15vh 0 -10vh;
+  flex-direction: column;
+  @include FlexCenter;
+
+  .post-list {
+    width: 30vw;
+
+    .post {
+      background-color: #fff;
+      border: 0.01em solid rgba(0, 0, 0, 0.438);
+
+      .post-head {
+        margin: 0.3em 0.5em;
+        justify-content: space-between;
+        @include FlexCenter;
+
+        .img-name {
+          @include FlexCenter;
+
+          h4 {
+            margin-left: 0.4em;
+            font-weight: 400;
+          }
+        }
+
+        img {
+          width: 2.5em;
+          border-radius: 50%;
+        }
+      }
+
+      img {
+        margin: 0.2em 0;
+        width: 100%;
+      }
+
+      .post-bottom {
+        margin-bottom: 0.2em;
+        margin: 0 0.5em;
+
+        .post-bottom__icon {
+          @include FlexCenter;
+          justify-content: space-between;
+
+          .post-bottom__left {
+            @include FlexCenter;
+
+            .heart {
+              margin-right: 0.5em;
+              color: #fff;
+            }
+
+            .send {
+              margin-left: 0.5em;
+            }
+          }
+        }
+
+        .post-bottom__comments {
+          @include FlexCenter;
+
+          .happy {
+            cursor: pointer;
+          }
+
+          margin: 1em 0.4em 0.5em 0.4em;
+
+          .post-bottom__comments-input {
+            width: 90%;
+            margin: 0 0 0.5em 0.5em;
+            height: 20px;
+            border: none;
+            border-radius: 5px;
+            outline: none;
+            height: 35px;
+            padding: 0 0.3em;
+            background-color: rgba(202, 198, 198, 0.439);
+          }
+        }
+      }
+    }
+  }
+}
+
+.main-Sidecontact {
+  width: 40vw;
+  background-color: #777;
+}
+
+.post-comments {
+  .post-comments__bottom {
+    margin: 0.3em 0em;
+
+    .post-comments__bottom-imgtext {
+      @include FlexCenter;
+
+      .post-comments__img {
+        img {
+          width: 1.5em;
+          border-radius: 50%;
+          position: relative;
+        }
+      }
+
+      .post-comments__like {
+        margin-left: 0.3em;
+        font-weight: 300;
+      }
+    }
+
+    .post-text {
+      font-weight: 300;
+    }
+
+    .post-comments__light {
+      color: #777;
+      margin-top: 0.6em;
+      font-size: 0.8rem;
+    }
+  }
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&display=swap');
+@import "mixin";
+
+@font-face {
+  font-family: 'Codigra', monospace;
+  src: url('../Fonts/codigra-font/CodigraRegular-GOAeq.ttf');
+}
+
+.main-header {
+  height: 8vh;
+  width: 100%;
+  top: 0;
+  position: sticky;
+  z-index: 999;
+  background-color: #fff;
+  @include FlexCenter;
+  justify-content: center;
+
+  .main-header__contanier {
+    @include FlexCenter;
+    justify-content: space-evenly;
+    width: 100%;
+
+    .main-header__logo {
+      font-family: 'Codigra', monospace;
+      font-size: 1.5em;
+    }
+
+    .main-header___search {
+      display: flex;
+      align-items: center;
+
+      .main-header__search-input {
+        width: 250px;
+        height: 35px;
+        border-radius: 10px;
+        background-color: rgba(202, 198, 198, 0.439);
+        border: none;
+        outline: none;
+        font-size: 1.2rem;
+        padding: 0 0.5em;
+        position: sticky;
+      }
+
+      input::placeholder {
+        font-size: 1rem;
+      }
+    }
+
+    .main-header__icon {
+      @include FlexCenter;
+      gap: 15px;
+
+      img {
+        border: 1.5px solid red;
+        width: 2.1em;
+        border-radius: 50%;
+        cursor: pointer;
+
+        &:hover {
+          border: 1.5px solid black;
+        }
+      }
+    }
+  }
+}
